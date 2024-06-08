@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-d{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Inconsolata;
+}
+
+.box{
+    display: flex;
+}
+
+.asaid{
+    width: 20%;
+    height: 90dvh;
+    border: 1px solid black;
+}
+
+.main{
+    width: 80%;
+    height: 90dvh;
+    border:  1px solid black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.font-25{
+    font-size: 25px;
+}
+
+.width-75{
+    width: 75%;
+}
+
