@@ -11,10 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="left">
+            <h1><a href="main.html" class="a">P r o j e c t s</a></h1>
+        </div>
+        <div class="right">
+            <ul>
+                <li>Aboyt</li>
+                <li>Contact</li>
+                <li>Content</li>
+            </ul>
+            <ul class="acount">
+                <li>Log in</li>
+                <li>Sign in</li>
+            </ul>
+        </div>
+    </header>
     <div class="box">
         <div class="asaid">
-            <h1 class="pointer" onmousedown="mopen()">Manager</h1>
-            <div id="manager-list" class="list hidden">
+            <h1 class="pointer h1-style" onmousedown="mopen()">Manager</h1>
+            <div id="manager-list" class="list  hidden">
                 <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Pep Guardiola</a></li>
                 <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Jurgen Klopp</a></li>
                 <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Carlo Ancelotti</a></li>
@@ -24,22 +40,187 @@
                 <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Unai Emery</a></li>
                 <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Luciano Spalletti</a></li>
             </div>
-            <h1 class="pointer" onmousedown="popen()">Players</h1>
-            <div id="player-list" class="list hidden">
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Leo Messi</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Cristiono Ronaldo</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Neymar Jr</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">De bruyne</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Fil Foden</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Kylian Mbappe</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Dembele</a></li>
-                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Luis Figo</a></li>
-                1
+            <h1 class="pointer h1-style " onmousedown="topen()">Team</h1>
+            <div id="team-list" class="list hidden">
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Real Madrid</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Barcelona</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Juventus</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Manchester United</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Mnachester City</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Chelsea</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Arsenal</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Liverpool</a></li>
+            </div>
+            <h1 class="pointer h1-style " onmousedown="Aopen()">Attacker</h1>
+            <div id="attacker-list" class="list hidden">
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Robert Lewandowski</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Karim Benzema</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Lautaro Martinez</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Victor Osimhen</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Alexander Isak</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Diego Simeone</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Unai Emery</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Luciano Spalletti</a></li>
+            </div>
+            <h1 class="pointer h1-style " onmousedown="midfopen()">Midfielder</h1>
+            <div id="midfielder-list" class="list hidden">
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Rodri</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Toni Kroos</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Luka Modrić</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Frenkie de Jong</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Joshua Kimmich</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Mateo Kovačić</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Eduardo Camavinga</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">kevin de bruyne</a></li>
+            </div>
+            <h1 class="pointer h1-style " onmousedown="dopen()">Deffender</h1>
+            <div id="deffender-list" class="list hidden">
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Virgil van Dijk</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Kim Min-jae</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Kyle Walker</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Alphonso Davies</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Eder Militao </a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Marquinhos</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">William Saliba</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Ruben Dias</a></li>
+            </div>
+            <h1 class="pointer h1-style " onmousedown="gopen()">GoalKeeper</h1>
+            <div id="goalkeeper-list" class="list hidden">
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Giorgi Mamardashvili</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">T.Courtois</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">M. ter Stegen</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Alisson</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Ederson</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">De Gea</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Mike Maignan</a></li>
+                <li class="list-group-item list-group-item-secondary font-25 width-75"><a class="text-d pointer" href="">Manuel Neuer</a></li>
             </div>
         </div>
-        <!-- <div class="main">
+        <main>
+            <div class="character">
+                <img width="100%" height="45%" width="100%" height="45%" src="img/pep.jpg" alt="">
+                <h1>Pep Guardiola</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%" src="img/klop.jpg" alt="">
+                <h1>Jurgen Klopp</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%"src="img/Carlo-Ancelotti.jpg" alt="">
+                <h1>Carlo Ancelotti</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%" src="img/izzaghi.jpg" alt="">
+                <h1>Simone Inzaghi</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%" src="img/Diego-Simeone.jpg" alt="">
+                <h1>Diego Simeone</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%" src="img/vinca.avif" alt="">
+                <h1>Unai Emery</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="100%" height="45%" src="img/spageti.jpg" alt="">
+                <h1>Luciano Spalletti</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
 
-        </div> -->
+            <!-- TEAMS -->
+            
+            <div class="character">
+                <img width="50%" height="50%" src="img/Real_Madrid_CF.svg.png" alt="">
+                <h1>Real Madrid</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/FC_Barcelona_(crest).svg.png" alt="">
+                <h1>Fc Barcelona</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/juventus.avif" alt="">
+                <h1>Juventus</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/Manchester_United_FC_crest.svg.png" alt="">
+                <h2>Manchester United</h2>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/Manchester_City_FC_badge.svg.png" alt="">
+                <h1>Manchester City</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/Chelsea_FC.svg.png" alt="">
+                <h1>Chelsea</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/arsenal-crest.png" alt="">
+                <h1>Arsenal</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+            <div class="character">
+                <img width="50%" height="45%" src="img/liverpool.jpg" alt="">
+                <h1>Liverpool</h1>
+                <div class="info-btn">
+                    <h6>Founded: 29:11:1899</h1>
+                    <a href="">INFO</a>
+                </div>
+            </div>
+        </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>

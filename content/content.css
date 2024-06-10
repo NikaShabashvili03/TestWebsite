@@ -1,11 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
 
+header{
+    background-color: #A1F4DE;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10dvh;
+}
+
+.a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-size: 30px;
+    font-family: Zen Dots;
+}
+
+.left h1{
+    margin-left: 40px;
+}
+
+.right{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+ul li{
+    list-style: none;
+    font-family: Cactus Classical Serif;
+}
+
+ul{
+    display: flex;
+    font-size: 30px;
+    gap: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.acount{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-size: 20px;
+    font-family: Cactus Classical Serif;
+}   
+
+.acount:hover{
+    transition: 0.2s;
+}
+
+ul li:hover{
+    color: rgb(131, 129, 129);
+    font-size: 35px;
+    transition: 0.4s;
+}
+
 .pointer{
     cursor: pointer;
+    font-family: Cactus Classical Serif;
 }
 
 .text-d{
@@ -13,24 +74,23 @@
     color: black;
 }
 
-body{
-    font-family: Inconsolata;
-}
-
 .box{
     display: flex;
+    background-color: #A1F4DE;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 
 .asaid{
     width: 20%;
-    height: 90dvh;
-    border: 1px solid black;
+    height: 85dvh;
+    overflow-y: auto;
+    margin-right: 5px;
 }
 
 .main{
     width: 80%;
-    height: 90dvh;
-    border:  1px solid black;
+    height: 85dvh;
 }
 
 .list {
@@ -60,3 +120,75 @@ body{
     width: 75%;
 }
 
+.h1-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #65EDAB;
+    background-color: white;
+}
+
+.list-style{
+    background-color: white;
+}
+
+main{
+    width: 80%;
+    height: 85dvh;
+    display: flex;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+
+.character{
+    margin: 20px;
+    width: 20%;
+    height: 40dvh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-btn h6{
+    margin-left: 20px;
+}
+
+.info-btn a{
+    margin-right: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid  #65EDAB;
+    color: #00ff84;
+    font-size: 16px;
+    font-family: Cactus Classical Serif;
+}
+
+.info-btn a:hover{
+    padding: 5px;
+    width: 35%;
+    height: 45px;
+    transition: 0.8s;
+}
