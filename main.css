@@ -38,6 +38,7 @@ header{
 ul li{
     list-style: none;
     font-family: Cactus Classical Serif;
+    transition: 0.4s;
 }
 
 ul{
@@ -54,16 +55,14 @@ ul{
     gap: 0;
     font-size: 20px;
     font-family: Cactus Classical Serif;
+    transition: 0.2s;
 }   
 
-.acount:hover{
-    transition: 0.2s;
-}
 
 ul li:hover{
     color: rgb(131, 129, 129);
     font-size: 35px;
-    transition: 0.4s;
+
 }
 
 main{
